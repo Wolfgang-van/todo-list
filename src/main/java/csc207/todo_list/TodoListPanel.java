@@ -166,6 +166,7 @@ public class TodoListPanel extends JPanel implements ActionListener {
         int selectedIndex = textList.getSelectedIndex();
 
         if (selectedIndex != -1) {
+
             textField.setText(todoList.getTitle(selectedIndex));
         }
     }
